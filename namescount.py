@@ -19,6 +19,6 @@ if __name__ == "__main__":
 
      # Iterando sobre el diccionario,
      # imprima el nombre seguido de un espacio seguido de
-     # número de veces que apareció.
+     # número de veces que apareció. Falta definir algunas entradas y completar
     for name, count in names.iteritems():
             sys.stdout.write("%d\t%s\n" % (count, name))
