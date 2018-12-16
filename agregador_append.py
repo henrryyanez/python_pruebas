@@ -13,7 +13,13 @@ moto.append('motoyamaha')
 moto.append('motosuzuki')
 print(moto)
 
-#########nsertando con Append en una posicion elegida######
+#########Insertando con Append en una posicion elegida######
 autos = ['ford', 'chevrolet', 'fiat']
 autos.insert(0, 'bronco')
 print(autos)
+
+#########Eliminando de una Lista############################
+motos2 = ['honda', 'yamaha', 'suzuki']
+print(motos2)
+del motos2[0]
+print(motos2)
