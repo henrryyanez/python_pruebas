@@ -8,8 +8,9 @@ n4 = int("0b1011",2) #le decimos que es base 2
 n5 = int("0xa",16)   #Indicamos que como es hexadec es base 16
 n6 = abs(-49)   #Valor absoluto
 n7 = round(10.56)  #Redondeo de numero
+n8 = len("Palabra")  #Cuenta cuantos caracteres tiene la cadena introducida
 
-print(n, n1, n2, n3, n4, n5, n6, n7)
+print(n, n1, n2, n3, n4, n5, n6, n7, n8)
 print(n1)
 print(n2)
 print(n3)
@@ -17,3 +18,4 @@ print(n4)
 print(n5)
 print(n6)
 print(n7)
+print(n8)
