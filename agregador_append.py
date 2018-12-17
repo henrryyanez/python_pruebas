@@ -23,3 +23,5 @@ motos2 = ['honda', 'yamaha', 'suzuki']
 print(motos2)
 del motos2[0]
 print(motos2)
+#########Usando el metodo pop####################
+popped_motorcycle = motorcycles.pop() 
