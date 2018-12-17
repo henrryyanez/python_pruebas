@@ -20,3 +20,8 @@ print("Uso del reverse:")
 print(cars)
 cars.reverse()
 print(cars)
+
+#############Uso del len
+print("Uso de len")
+print(cars)
+print(len(cars))
