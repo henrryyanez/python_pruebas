@@ -25,3 +25,11 @@ del motos2[0]
 print(motos2)
 #########Usando el metodo pop####################
 popped_motorcycle = motorcycles.pop() 
+#######Uso de Remove#########
+motorcycles.remove('yamaha')
+print(motorcycles)
+#############################
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print("\nA " + too_expensive.title() + " is too expensive for me.")
