@@ -12,3 +12,7 @@ for magician in magicians:
  print("I can't wait to see your next trick, " + magician.title() + ".\n")
 
  print("Thank you, everyone. That was a great magic show!")
+
+#Usando for, practicas 2, devolviendo modo lista
+numbers = list(range(1,6))
+print(numbers)
