@@ -16,3 +16,8 @@ for magician in magicians:
 #Usando for, practicas 2, devolviendo modo lista
 numbers = list(range(1,6))
 print(numbers)
+
+#Usando for, practicas 3
+print("\nOtro ejemplo 3:\n")
+even_numbers = list(range(2,11,2))  #Aumenta de 2 en 2 sin pasarse de 11 en el loop
+print(even_numbers)
