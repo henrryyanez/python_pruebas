@@ -8,3 +8,11 @@ for car in cars:
         print(car.upper())
     else:
         print(car.title())
+
+#Ahora probando otras cosas
+        
+        print("\nAhora pruebo con validadores:\n")
+
+hy = 'Audi'
+hy == 'audi'
+print(hy)
