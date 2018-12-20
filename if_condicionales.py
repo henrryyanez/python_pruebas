@@ -9,10 +9,14 @@ for car in cars:
     else:
         print(car.title())
 
-#Ahora probando otras cosas
-        
-        print("\nAhora pruebo con validadores:\n")
+print("\nAhora pruebo con validadores:\n")
 
 hy = 'Audi'
 hy == 'audi'
 print(hy)
+
+print("\nContinuando con IF inequality:\n")
+
+requested_topping = 'mushrooms'
+if requested_topping != 'anchovies':
+ print("Hold the anchovies!")
