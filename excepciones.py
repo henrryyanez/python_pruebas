@@ -18,3 +18,17 @@ for cls in [B, C, D]:
         print("B")
 
 print("Segunda prueba")
+
+import sys
+
+try:
+    f = open('miarchivo.txt')
+    s = f.readline()
+    i = int(s.strip())
+except OSError as err:
+    print("Error OS: {0}".format(err))
+except ValueError:
+    print("No pude convertir el dato a un entero.")
+except:
+    print("Error inesperado:", sys.exc_info()[0])
+    raise
