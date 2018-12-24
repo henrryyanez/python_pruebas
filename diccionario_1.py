@@ -14,3 +14,10 @@ print("La edad actual es " + str(nuevo_punto))
 alien['x_position'] = 0
 alien['y_position'] = 25
 print(alien)
+
+print("\nNueva prueba\n")
+
+alien_0 = {}
+alien_0['color'] = 'green'
+alien_0['points'] = 5
+print(alien_0)
