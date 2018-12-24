@@ -21,3 +21,16 @@ alien_0 = {}
 alien_0['color'] = 'green'
 alien_0['points'] = 5
 print(alien_0)
+
+print("\nNueva prueba 2\n")
+
+favorite_languages = {
+ 'hy': 'python',
+ 'sarah': 'c',
+ 'edward': 'ruby',
+ 'jose': 'python',
+ }
+nombre = input("Ingresar el nombre personal:")
+print(favorite_languages)
+print("El usuario le gusta el lenguaje " + favorite_languages[nombre].title() + ".")
+
