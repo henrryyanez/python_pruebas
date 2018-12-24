@@ -7,3 +7,6 @@ print(alien_0['age'])
 
 new_points = alien_0['points']
 print("You just earned " + str(new_points) + " points!")
+
+nuevo_punto = alien_0['age']
+print("La edad actual es " + str(nuevo_punto))
